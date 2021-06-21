@@ -1,0 +1,106 @@
+*{
+    font-family:Shadows Into Light;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+} 
+body {
+	background: #000;
+}
+h5 {
+	display: block;
+}
+.flex-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: transparent;
+	margin: 0 30px;
+	border: 1px solid #fff;
+}
+.form {
+	min-width: 350px;
+	flex: 1;
+	text-align: center;
+}
+.form div {
+	margin: 7px;
+}
+.form_img {
+	flex: 1;
+	display: flex;
+}
+.form_img img{
+	min-width: 30%;
+	max-width: 60%;
+	margin: auto;
+	border-radius: 50%;
+}
+.form_section-radio h6 {
+	display: inline;
+	font-size: 20px;
+}
+
+.form input{
+	background: transparent;
+	color: #ddd;
+	font-size: 18px;
+	margin: 7px;
+	border: none;
+	border-bottom: 1px solid #fff;
+}
+.form input:focus{
+	background: linear-gradient(to bottom,transparent,#333);
+	color: #fff;
+}
+#person{
+	background: transparent;
+	border: none;
+}
+option, optgroup {
+	background: #000;
+}
+#hombre,#mujer,#nose {
+	font-size: 12px;
+}
+textarea {
+	background: transparent;
+	min-width: 300px;
+	max-width: 600px;
+	margin:auto ;
+	resize: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+}
+textarea:focus{
+	background: linear-gradient(to bottom,transparent,#333);
+}
+.form_submit input{
+    background-color: #F355B9;
+    color: #fff;
+}
+.form_submit input:hover{
+    background-color: #D13080;
+    color: #ddd;
+}
+.form_reset input{
+    background-color: #F355B9;
+    color: #fff;
+}
+.form_reset input:hover {
+    background-color: #D13080;
+    color: #ddd;
+}
+@media ( max-width: 700px){
+	.flex-container{
+	   flex-direction: column-reverse;
+    }
+	.form_img{
+       flex :none;
+       width: 30%;
+
+	}
+}

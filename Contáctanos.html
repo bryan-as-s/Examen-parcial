@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="Contáctanos.css">
+      <meta charset="utf-8"> 
+      <title>Correo</title>
+      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CapAward.png/245px-CapAward.png">
+      <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+      <header>
+            <nav>
+               <ul>
+                  <li><a href="Inicio.html">INICIO</a></li>
+               </ul>
+            </nav>
+      </header>
+
+        <h1>Puede contactarnos mediante el siguiente formulario</h1>
+
+           <div class="flex-container">
+
+              <form class="form">
+                    <div class="form_section">  
+                         <input type="text" id="usuario" required="" placeholder=" Pedro">
+                    </div> 
+
+                    <div class="form_section">  
+                         <input type="password" id="contraseña" required=""  placeholder="*********">
+                    </div>
+
+                    <div class="form_section">  
+                         <input type="email" id="correo" required="" placeholder="okay@gmail.com"> 
+                    </div>
+                    <div class="form_section">  
+                         <input type="date" id="fecha">
+                    </div>
+    
+                    <div class="form_section">  
+                        <select id="person">
+                            <option hidden selected class="op">Seleccione una opción</option>
+                               <optgroup label="Estudiante">
+
+                                  <option value="i">inicial de 5 años</option>
+                                  <option value="p">primaria</option>
+                                  <option value="s">secundaria</option>
+                                  <option value="u">universitario</option>
+                                  <option value="o">otro</option>
+
+                               </optgroup> 
+
+                               <optgroup label="No Estudiante">
+                                 <option value="P">Profesor</option> 
+                                 <option value="D">Diseñador web</option>
+                               </optgroup>   
+                        </select>
+                    </div>
+
+                    <div class="form_section-radio">    
+                        <h6>Género:</h6>
+                        <input type="radio" name="sexo" id="hombre">
+                        <label for="hombre">Hombre</label>
+
+                        <input type="radio" name="sexo" id="mujer">
+                        <label for="mujer">Mujer</label>
+
+                        <input type="radio" name="sexo" id="nose">
+                        <label for="nose">Sin especificar</label>
+                    </div>
+
+                    <div class="form_section">  
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" min="5" value="5">
+                    </div>
+       
+                    <div class="form_section">
+                         <label for="rango">Qué tanto te gustó está página?</label> 
+                         <input type="range" id="rango" min="0" max="5"><br>
+                         <label for="col">Qué color te gusta más?</label> 
+                         <input type="color" id="col">
+                    </div>
+
+                    <div class="form_section">
+                         <textarea class="form_texta"></textarea> 
+                    </div>
+                    <br>
+                    <div class="form_section">
+                        <input type="checkbox" class="form_section-cb" required="">Aceptas los terminos y condiciones
+                    </div> 
+                    <br>
+                    <div class="form_reset">
+                         <input type="reset">
+                    </div> 
+                    <div class="form_submit">
+                         <input type="submit">
+                    </div>  
+
+                </form>
+                    <div class="form_img">
+                        <img src="https://d500.epimg.net/cincodias/imagenes/2014/11/22/lifestyle/1416651327_858111_1416651500_noticia_normal.jpg">
+                    </div>
+            </div>
+
+</body>
+</html>
